@@ -1,0 +1,19 @@
+# Ignoruj wszystkie pliki zawierające "log" w nazwie
+*log*
+*.log
+
+# Ignoruj katalog z błędami i jego zawartość
+error/
+
+# Ignoruj pliki tymczasowe i backupy
+*.tmp
+*.swp
+*~
+
+# Ignoruj katalogi systemowe (jeśli używasz edytorów typu VS Code)
+.vscode/
+.idea/
+
+# Ignoruj pliki systemowe (Windows, macOS)
+Thumbs.db
+.DS_Store
